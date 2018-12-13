@@ -1,12 +1,12 @@
 
 //add all elements together
 function sum(arr){
-  return arr.reduce(((acc, cur) => acc+cur),0)
+  return arr.reduce((acc, cur) => acc+cur, 0)
 }
 
 //multiply all elements together
 function multiply(arr){
-  return arr.reduce(((acc,cur) => acc*cur),1)
+  return arr.reduce((acc,cur) => acc*cur, 1)
 }
 
 //double each element using reduce
